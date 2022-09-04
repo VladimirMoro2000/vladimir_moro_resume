@@ -7,8 +7,7 @@ p{
     font-style: italic;
 }
 
-img{
-    
+.img1{
     border-radius: 25% 0 25% 0;
     width: 300px;
     margin: 10px;
@@ -144,6 +143,26 @@ border-radius: 5px;
 
 .btn:hover{
     background-color: cornflowerblue;
+}
+
+.image {
+    background-color: aliceblue;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+}
+
+.vk:hover{
+    border: 2px solid rgb(91, 91, 209);
+}
+
+.youtube:hover{
+    border: 2px solid rgb(175, 44, 44)
+}
+
+.telegram:hover{
+    border: 2px solid rgb(57, 57, 239)
 }
 
 .header{
