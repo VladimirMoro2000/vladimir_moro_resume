@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&family=Roboto&display=swap');
+
+p{
+    margin: 10px 20px;
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+img{
+    
+    border-radius: 25% 0 25% 0;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.7);
+}
+
+.navbar{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 98%;
+    margin: 10px;
+}
+
+
+.navbar li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2, h4{
+    text-align: center;
+    margin: 10px;
+    background-color: cornsilk;
+    padding: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+
+body{
+    color: #0f141e;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    width: 150px;
+}
+
+table td:hover{
+    background-color: #989191;
+}
+
+table th{
+    color: white;
+    background-color: rgb(0, 255, 26);
+}
+
+table tr{
+    background-color: cadetblue;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header{
+    background-color: aquamarine;
+}
+
+.hobby{
+    background-color: bisque;
+}
+
+.hobby li:nth-child(even) {
+    background-color: #989191;
+}
+
+.kariera{
+    background-color: cadetblue;
+}
+
+
+.links{
+    padding: 30px;
+}
+
+
+.svaz{
+    background-color: rgb(254, 254, 254);
+}
+
+.conteiner{
+    margin: auto;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(159, 85, 85);
+}
+
+a:hover {
+    color: red;
+
+}
+
+a:active {
+    color: blue;
+}
+
+.btn {
+padding: 10px 10px;
+background-color: chocolate;
+color: #f1f1f1;
+border: none;
+border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn:hover{
+    background-color: cornflowerblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer{
+    display: block;
+    text-align: center;
+    background-color: lightgray;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #989191;
+}
+
+.input{
+    margin-bottom: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+
+form div {
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+@media (max-width:425px) {
+    .conteiner{
+        max-width: 400px;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .input{
+        flex-direction: column;
+    }
+
+    .kariera {
+        margin: 30px;
+    }
+}
